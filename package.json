@@ -1,5 +1,5 @@
 {
-  "name": "react-countdown-hook",
+  "name": "@qriousgabriel/react-countdown-hook",
   "version": "1.0.0",
   "description": "A count down hook for React",
   "author": "qriousgabriel",

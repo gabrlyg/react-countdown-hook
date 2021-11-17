@@ -1,5 +1,5 @@
 import * as React from 'react'
-import useCountDown from 'react-countdown-hook'
+import useCountDown from '@qriousgabriel/react-countdown-hook'
 
 export const Timer = () => {
   const { counter, pause, resume, isPaused } = useCountDown(120, 1000)
