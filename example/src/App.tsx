@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-countdown-hook'
-import 'react-countdown-hook/dist/index.css'
+import { Timer } from './components'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Timer />
 }
 
 export default App
