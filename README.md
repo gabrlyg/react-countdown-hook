@@ -15,7 +15,7 @@ npm install --save @qriousgabriel/react-countdown-hook
 ### Yarn
 
 ```bash
-yar add @qriousgabriel/react-countdown-hook
+yarn add @qriousgabriel/react-countdown-hook
 ```
 
 ## Usage
