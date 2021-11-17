@@ -14,12 +14,12 @@ const useCountDown = (timeToCount: number, interval?: number) => {
   React.useEffect(() => {
     const id: null | NodeJS.Timeout =
       counter > 0 && !isPaused
-        ? setInterval(() => {
+        ? setTimeout(() => {
             setCounter(counter - 1)
           }, interval || 1000)
         : null
     return () => {
-      id && clearInterval(id)
+      id && clearTimeout(id)
     }
   }, [counter, interval, isPaused])
 
