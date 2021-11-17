@@ -18,10 +18,10 @@ describe('useCountDown ->', () => {
     expect(result.current.counter).toBe(120)
   })
   it('should start the timer with set interval', () => {
-    const { result } = renderHook(() => useCountDown(120))
+    const { result } = renderHook(() => useCountDown(120, 2000))
     expect(result.current.counter).toBe(120)
     jest.advanceTimersByTime(10000)
-    expect(result.current.counter).toBe(110)
+    expect(result.current.counter).toBe(115)
   })
   it('should stop the timer at 0', () => {
     const { result } = renderHook(() => useCountDown(5))
